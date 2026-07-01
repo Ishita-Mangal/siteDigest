@@ -191,11 +191,11 @@ The following cases were also tested:
 # Future Improvements
 
 If this were developed further, I would prioritize:
-
-1. Better content extraction using Playwright for JavaScript-heavy websites.
+1. Generates alert flag before giving the summaries about requested website as illegal, insensitive content, restricted and only proceeds when it is safe.
 2. Multi-page website crawling.
 3. Response caching to reduce repeated API calls.
 4. Streaming summaries for faster user feedback.
-5. Automated testing for backend endpoints.
-6. Logging and monitoring.
-7. Better evaluation metrics for summary quality.
+5. Evaluation metrics to track summary quality
+6. Automated testing for backend endpoints.
+   
+
