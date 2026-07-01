@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Digest</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="hero">
+        <h1>🌐 Site Digest</h1>
+
+        <p>Understand any website in seconds using AI.</p>
+      </div>
+
+      <div class="search-box">
+        <input id="url" type="text" placeholder=" Paste any website URL..." />
+
+        <button onclick="summarizeWebsite()">Summarize Website</button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
